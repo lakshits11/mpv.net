@@ -1,0 +1,5 @@
+function switch_audio_track()
+    mp.command("cycle-values audio-track")
+end
+
+mp.add_key_binding("b", "switch-audio-track", switch_audio_track)
